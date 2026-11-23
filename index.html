@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-GB" data-world="shadow-academy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; font-src 'self'; script-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>Quizenshi: Anime Quiz Battles</title>
+  <meta name="description" content="Answer fast to power your hero in anime battles. Three worlds, three heroes, a daily boss and hundreds of fact-checked questions. Coming soon to iPhone and Android.">
+  <meta name="theme-color" content="#0e0b1a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Quizenshi: Anime Quiz Battles">
+  <meta property="og:description" content="Answer fast to power your hero in anime battles. Coming soon to iPhone and Android.">
+  <meta property="og:url" content="https://quizenshi.com/">
+  <meta property="og:image" content="https://quizenshi.com/assets/img/share.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/dela-gothic-one-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the game</a>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="wrap top">
+    <a class="brand" href="/"><img src="/assets/img/icon-256.webp" alt="" width="40" height="40">Quizenshi</a>
+    <nav aria-label="Site"><a href="/privacy/">Privacy</a></nav>
+  </header>
+
+  <main id="main">
+    <div class="wrap hero">
+      <div class="hero-copy">
+        <h1>Quizenshi</h1>
+        <p class="subtitle">Anime quiz battles</p>
+        <p class="lede">Answer fast to power your hero. Every right answer is a strike, three in a row unleash a special move, and every world ends with a boss at the castle door.</p>
+      </div>
+
+      <ul class="worlds" aria-label="Choose a world">
+        <li><button class="world-btn" type="button" data-for="shadow-academy" aria-pressed="true">Shadow Academy</button></li>
+        <li><button class="world-btn" type="button" data-for="neon-rebellion" aria-pressed="false">Neon Rebellion</button></li>
+        <li><button class="world-btn" type="button" data-for="spirit-kingdom" aria-pressed="false">Spirit Kingdom</button></li>
+      </ul>
+
+      <div class="stage">
+        <img class="scene is-shadow-academy" src="/assets/img/shadow-academy.webp" alt="" width="768" height="1152">
+        <img class="scene is-neon-rebellion" src="/assets/img/neon-rebellion.webp" alt="" width="768" height="1152">
+        <img class="scene is-spirit-kingdom" src="/assets/img/spirit-kingdom.webp" alt="" width="768" height="1152">
+        <img class="figure is-shadow-academy" src="/assets/img/kael.webp" alt="Kael, the hero of Shadow Academy, in a long violet coat with a spell book" width="640" height="960">
+        <img class="figure is-neon-rebellion" src="/assets/img/rin.webp" alt="Rin, the hero of Neon Rebellion, with cyan lightning in her hand" width="640" height="960">
+        <img class="figure is-spirit-kingdom" src="/assets/img/akane.webp" alt="Akane, the hero of Spirit Kingdom, in crimson robes with a sword" width="640" height="960">
+        <p class="stage-caption" data-world-caption aria-live="polite"><strong>Shadow Academy</strong><span>Gothic halls where knowledge is a weapon. Hero: Kael.</span></p>
+      </div>
+
+      <div class="demo" data-demo>
+        <p class="demo-q">What is a baby kangaroo called?</p>
+        <ul class="answers" aria-label="Answers"></ul>
+        <noscript><p>Turn on JavaScript to answer this one.</p></noscript>
+        <p class="feedback" aria-live="polite"></p>
+        <div class="demo-foot">
+          <p class="demo-note">A real question from the game. There are 708 so far, and every one is checked twice, against sources other than the one it was written from.</p>
+          <button class="next" type="button" hidden>Another question</button>
+        </div>
+      </div>
+
+      <p class="status"><strong>Coming soon to iPhone and Android.</strong> Free to play.</p>
+    </div>
+
+    <section class="band" aria-labelledby="battle">
+      <div class="wrap">
+        <h2 id="battle">How a battle works</h2>
+        <p class="intro">Battles take about a minute. You stand behind your hero, facing the enemy, and your answers do the fighting.</p>
+        <ol class="steps">
+          <li><h3>A question drops</h3><p>Four answers and eight seconds, with a ring of light running down around the question.</p></li>
+          <li><h3>Answer right and you strike</h3><p>Answer in the first few seconds and the hit lands half as hard again. Get one wrong or run out of time and the enemy hits back.</p></li>
+          <li><h3>Three in a row unleash your special</h3><p class="specials">Kael's Eclipse Verse, Rin's Overload Arc or Akane's Crimson Requiem, each two and a half times as strong as a normal strike.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="daily">
+      <div class="wrap daily">
+        <div>
+          <h2 id="daily">Come back every day</h2>
+          <p>Each day one of the world bosses returns as the daily boss, with fresh questions. Finish a battle each day to keep your streak going, and save freezes to cover a day you miss.</p>
+          <p>Along the way you earn titles like Quick Draw, Unbroken and Week of Fire, and dress your hero in auras and card frames. Everything you collect is earned by playing.</p>
+        </div>
+        <div>
+          <ol class="track" aria-label="The seven-day reward track">
+            <li><span class="coins">20</span>Day 1</li>
+            <li><span class="coins">30</span>Day 2</li>
+            <li><span class="coins">40</span>Day 3</li>
+            <li><span class="coins">50</span>Day 4</li>
+            <li><span class="coins">60</span>Day 5</li>
+            <li><span class="coins">80</span>Day 6</li>
+            <li class="last"><span class="coins">100</span>Day 7</li>
+          </ol>
+          <p class="track-note">The seven-day reward track: coins every day, and the First Light aura on day seven.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="care">
+      <div class="wrap">
+        <h2 id="care">Made for curious players</h2>
+        <ul class="care">
+          <li><h3>Six topics</h3><p>Science and Space, Geography, Animals and Nature, History, Sport, and Games and Tech.</p></li>
+          <li><h3>No chat, no accounts</h3><p>Nobody can message you, and the game never asks for your name, email or photo.</p></li>
+          <li><h3>Break reminders</h3><p>After 45 minutes of play, the game suggests a break. You can turn this off in settings.</p></li>
+          <li><h3>Easy on the eyes</h3><p>A reduce flashing setting, and the game follows your phone's reduce motion setting too.</p></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p class="soon">Coming soon to the App Store and Google Play.</p>
+    <ul class="foot-links">
+      <li><a href="/privacy/">Privacy policy</a></li>
+      <li><a href="/terms/">Terms of use</a></li>
+      <li><a href="mailto:support@quizenshi.com">support@quizenshi.com</a></li>
+    </ul>
+    <p class="legal">Quizenshi is made by Loaders Studios Ltd, a company registered in England and Wales, company number 17225067. Registered office: as shown on the <a href="https://find-and-update.company-information.service.gov.uk/company/17225067">Companies House register</a>. &copy; 2026 Loaders Studios Ltd.</p>
+  </footer>
+
+  <script src="/assets/site.js" defer></script>
+</body>
+</html>
