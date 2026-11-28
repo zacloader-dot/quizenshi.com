@@ -105,6 +105,23 @@ h1 {
 .lede { max-width: 34em; margin: 20px 0 0; font-size: 1.125rem; }
 .status { grid-area: status; margin: 0; color: var(--lilac); }
 .status strong { color: var(--moon); }
+.play-btn {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  min-height: 48px;
+  margin: 0 0 14px;
+  padding: 10px 22px;
+  background: var(--light);
+  color: var(--ink);
+  font: 700 1rem/1 var(--text);
+  text-decoration: none;
+  clip-path: polygon(var(--cut-s) 0, 100% 0, 100% calc(100% - var(--cut-s)), calc(100% - var(--cut-s)) 100%, 0 100%, 0 var(--cut-s));
+  transition: background 600ms ease;
+}
+.play-btn:hover { background: var(--spark); }
+.play-btn:focus-visible { background: var(--gold); text-decoration: underline; text-underline-offset: 4px; }
+.foot .soon a { color: inherit; }
 
 .worlds { grid-area: worlds; display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
 .world-btn {
